@@ -1,0 +1,135 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.banner {
+		margin-bottom: 36px;
+	}
+	.brand-area{
+		grid-template-columns: repeat(2,1fr);
+		margin-top: -39px;
+	}
+	
+	.logo-area img {
+		width: 165px;
+		margin-top: 30px;
+	}
+	.banner h1 {
+		font-size: 45px;
+	}
+	.pode {
+		grid-template-columns: repeat(1,1fr);
+	}
+	.bacground-black {
+		background-color: Fff;
+	}
+	.pods-area {
+		margin-bottom: 43px;
+	}
+	.main-area-title h4 {
+		font-size: 25px;
+		margin-bottom: 24px;
+		font-weight: 400;
+	}
+	.container.benefit {
+		margin: 0;
+	}
+	.testimonial {
+		grid-template-columns: repeat(2,1fr);
+	}
+	.testimonial-img img {
+		width: 79%;
+	}
+	.testimonial-text {
+		text-align: center;
+	}
+	.benefit-title h4 {
+		font-size: 19px;
+	}
+	.benefit-card {
+		text-align: center;
+		background: #fff;
+		padding: 27px 59px 29px;
+	}
+	.benefits {
+		grid-template-columns: repeat(1,1fr);
+	}
+	.footer-menu {
+		grid-template-columns: repeat(1,1fr);
+	}
+	.pods-title h4 {
+		font-size: 25px;
+		font-weight: 400;
+	}
+	.mani-text {
+		grid-template-columns: repeat(1,1fr);
+	}
+	.main-content {
+		width: 226px;
+		margin-bottom: 33px;
+	}
+    .testimonial {
+		padding: 0 ;
+	}
+	.navbar-brand img {
+		width: 65%;
+	}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:612px;}
+.logo-area img {
+	width: 100%;
+	margin-top: 25px;
+}
+.brand-area{
+	grid-template-columns: repeat(3,1fr);
+	margin-top: -39px;
+}
+
+.container {
+	width: 100%;
+}
+.banner h1 {
+	font-size: 50px;
+	margin-top: 76px;
+}
+
+.pods-title h4 {
+	font-size: 36px;
+	margin-bottom: 11px;
+}
+.pode {
+	grid-template-columns: repeat(2,1fr);
+}
+.benefits {
+	grid-template-columns: repeat(3,1fr);
+}
+.benefits {
+	grid-template-columns: repeat(2,1fr);
+}
+.footer-menu {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+}
